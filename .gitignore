@@ -1,0 +1,70 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+*/[Ll]ogs/*
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# Visual Studio 2015
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+#Folder ignore list
+PublishProfiles/
+keysGenerator/
+.svn/
+node_modules/
+
+
+#File ignore list
+*.log
+*.dotCover
+*.nupkg
+*.*~
+*.swp
+project.lock.json
+.DS_Store
+*.pyc
+*.gz
+*.config
+*.sln.mine
+wwwroot.rar
+NotificationKey.cs
+bundleconfig.json.bindings
+npm-shrinkwrap.json
+package-lock.json
+
+
+!web.rewrite.config
+
